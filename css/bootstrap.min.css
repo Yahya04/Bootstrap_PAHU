@@ -4073,7 +4073,7 @@ custom-range::-moz-range-thumb:focus{
 	-ms-flex-direction:row;
 	flex-direction:row;
 	justify-content: space-between;
-	width: 500px
+	width: 700px;
 	}
 
 .navbar-expand-lg .navbar-nav .dropdown-menu{
@@ -7435,6 +7435,14 @@ a.bg-dark:focus,a.bg-dark:hover,button.bg-dark:focus,button.bg-dark:hover{
 	z-index:1030
 	}
 
+.absolute-top {
+	position:absolute;
+	top:0;
+	right:0;
+	left:0;
+	z-index:1030;
+}
+
 
 /***********************************/
 @supports ((position:-webkit-sticky) or (position:sticky)){
@@ -8353,10 +8361,25 @@ body{min-width:992px!important}
 /*# sourceMappingURL=bootstrap.min.css.map */
 
 .nav-link-custom {
-	padding: 2.0rem 0rem !important;
+	padding: 1.0rem 0rem !important;
 	text-transform: uppercase;
 	font-size: 12px;
 	font-weight: bold;
+}
+
+.nav-icons {
+	width: 15px;
+	height: auto;
+	filter: brightness(0) invert(1);
+	display: inline-flex;
+}
+
+.nav-icons:hover{
+	cursor: pointer;
+}
+
+.nav-icons-title {
+	display: inline-block;
 }
 
 .top-45 {
@@ -8467,15 +8490,32 @@ body{min-width:992px!important}
 
 
 @media (min-width:768px) {
-.nav-shadow {
-	border-bottom: 3px solid #0c0c0b;
-	position: relative;
-	bottom: 3px;
+.fixed-md-top {
+	position:fixed;
+	top:0;
+	right:0;
+	left:0;
+	z-index:1030
 }
 
 .nav-logo {
 	width: 150px;
 }
+
+.nav-btm-line {
+	border-bottom: 3px solid #000;
+	position: relative;
+	bottom: 3px;
+}
+
+.nav-link-custom {
+	padding: 2.0rem 0rem !important;
+}
+
+.nav-icons-title {
+	display: none;
+}
+
 
 #img-top {
 	height: 740px;
