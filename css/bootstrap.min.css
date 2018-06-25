@@ -3897,7 +3897,8 @@ custom-range::-moz-range-thumb:focus{
 	flex-direction:column;
 	padding-left:0;
 	margin-bottom:0;
-	list-style:none
+	list-style:none;
+
 }
 
 .navbar-nav .nav-link{
@@ -3921,7 +3922,7 @@ custom-range::-moz-range-thumb:focus{
 	-ms-flex-positive:1;
 	flex-grow:1;
 	-ms-flex-align:center;
-	align-items:center
+	align-items:center;
 	}
 
 .navbar-toggler{
@@ -3993,8 +3994,6 @@ custom-range::-moz-range-thumb:focus{
 	display:flex!important;
 	-ms-flex-preferred-size:auto;
 	flex-basis:auto;
-	height: 454px;
-	overflow-y: scroll;
 }
 
 .navbar-expand-sm .navbar-toggler{
@@ -4045,8 +4044,6 @@ custom-range::-moz-range-thumb:focus{
 	display:flex!important;
 	-ms-flex-preferred-size:auto;
 	flex-basis:auto;
-	height: unset;
-	overflow-y: unset;
 }
 
 .navbar-expand-md .navbar-toggler{
@@ -4099,8 +4096,6 @@ custom-range::-moz-range-thumb:focus{
 	display:flex!important;
 	-ms-flex-preferred-size:auto;
 	flex-basis:auto;
-	height: unset;
-	overflow-y: unset;
 	}
 
 .navbar-expand-lg .navbar-toggler{
@@ -4151,8 +4146,6 @@ custom-range::-moz-range-thumb:focus{
 	display:flex!important;
 	-ms-flex-preferred-size:auto;
 	flex-basis:auto;
-	height: unset;
-	overflow-y: unset;
 	}
 
 .navbar-expand-xl .navbar-toggler{
@@ -4196,8 +4189,6 @@ custom-range::-moz-range-thumb:focus{
 	display:flex!important;
 	-ms-flex-preferred-size:auto;
 	flex-basis:auto;
-	height: 454px;
-	overflow-y: scroll;
 	}
 
 .navbar-expand .navbar-toggler{
