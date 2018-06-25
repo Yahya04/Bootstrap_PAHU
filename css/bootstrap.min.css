@@ -1922,7 +1922,7 @@ pre code {
 .form-control{
 	display:block;
 	width:90%;
-	padding:.75rem .75rem;
+	padding:.75rem 1.75rem .75rem .75rem;
 	font-size:0.7rem;
 	line-height:1.5;
 	color:rgba(255,255,255,.5)!important;
@@ -8450,8 +8450,8 @@ body{min-width:992px!important}
 	width: 20px;
 	height: auto;
 	position: absolute;
-	right: 12px;
-	top: 49px;
+	right: -10px;
+	top: 48px;
 	filter: brightness(0) invert(0.5);
 	cursor: pointer;
 }
@@ -8540,7 +8540,7 @@ body{min-width:992px!important}
 
 .email-enter-btn {
 	top: 56px;
-	right: 25px;
+	right: -5px;
 }
 
 .line-md-title {
