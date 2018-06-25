@@ -8565,7 +8565,8 @@ body{min-width:992px!important}
 }
 
 .chair-yellow {
-	width: 375px;
+	width: 100%;
+	max-width: 375px;
 	height: auto;
 }
 
