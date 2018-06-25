@@ -438,7 +438,7 @@ hr {
 }
 
 .blockquote-footer::before {
-	content:"\2014 \2014 \00A0 \00A0 \00A0";
+	content:"\2015\2015 \00A0 \00A0 \00A0";
 	color: #fece76!important;
 }
 
@@ -8359,6 +8359,17 @@ body{min-width:992px!important}
 
 
 /*# sourceMappingURL=bootstrap.min.css.map */
+.font-nav {
+	font-family: linotte-bolduploaded_file;
+}
+
+.font-title {
+	font-family: 'poppinssemibold';
+}
+
+.font-content {
+	font-family: 'poppinsregular';
+}
 
 .nav-link-custom {
 	padding: 1.0rem 0rem !important;
