@@ -4071,7 +4071,9 @@ custom-range::-moz-range-thumb:focus{
 
 .navbar-expand-lg .navbar-nav{
 	-ms-flex-direction:row;
-	flex-direction:row
+	flex-direction:row;
+	justify-content: space-between;
+	width: 500px
 	}
 
 .navbar-expand-lg .navbar-nav .dropdown-menu{
@@ -4213,7 +4215,8 @@ custom-range::-moz-range-thumb:focus{
 	}
 
 .navbar-light .navbar-nav .active>.nav-link,.navbar-light .navbar-nav .nav-link.active,.navbar-light .navbar-nav .nav-link.show,.navbar-light .navbar-nav .show>.nav-link{
-	color:rgba(0,0,0,.9)
+	color:rgba(0,0,0,.9);
+
 	}
 
 .navbar-light .navbar-toggler{
@@ -4258,7 +4261,8 @@ custom-range::-moz-range-thumb:focus{
 	}
 
 .navbar-dark .navbar-nav .active>.nav-link,.navbar-dark .navbar-nav .nav-link.active,.navbar-dark .navbar-nav .nav-link.show,.navbar-dark .navbar-nav .show>.nav-link{
-	color:#fff
+	color:#fff;
+	border-bottom: 3px solid #fece76;
 	}
 
 .navbar-dark .navbar-toggler{
@@ -8349,7 +8353,7 @@ body{min-width:992px!important}
 /*# sourceMappingURL=bootstrap.min.css.map */
 
 .nav-link-custom {
-	padding: 2.5rem 2.5rem !important;
+	padding: 2.0rem 0rem !important;
 	text-transform: uppercase;
 	font-size: 12px;
 	font-weight: bold;
@@ -8409,11 +8413,11 @@ body{min-width:992px!important}
 }
 
 .email-enter-btn {
-	width: 5%;
+	width: 20px;
 	height: auto;
 	position: absolute;
 	right: 12px;
-	top: 40%;
+	top: 49px;
 	filter: brightness(0) invert(0.5);
 	cursor: pointer;
 }
@@ -8484,8 +8488,8 @@ body{min-width:992px!important}
 }
 
 .email-enter-btn {
-	top: 42%;
-	right: 20px;
+	top: 56px;
+	right: 25px;
 }
 
 .line-md-title {
